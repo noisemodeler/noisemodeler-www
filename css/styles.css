@@ -4,3 +4,7 @@ h1 {
     line-height: 70px;
 }
 
+.navbar-brand a {
+    font-family: 'Coustard', Georgia, Times, serif;
+    font-weight: lighter
+}
