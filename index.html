@@ -26,31 +26,44 @@
 <div class="container">
     <div class="jumbotron">
         <h1>Noise Modeler</h1>
-        <p>An in-game procedural terrain and content generation framework</p>
-        <a href="download.html" class="btn btn-primary btn-large">
-            Download
-        </a>
+        <p>An in-game procedural terrain and content generation tool</p>
+        <img width="100%" src="images/noisemodelerfullscreenshot.png" alt="">
     </div>
+
     <div class="row">
-        <div class="col-md-4">
-            <img width="100%" src="images/noisemodelerfullscreenshot.png" alt="">
-        </div>
+
         <div class="col-md-4">
             <h2>Real-time preview</h2>
             <p>Changes to the terrain may be viewed immediately in a high-resolution preview.</p>
             <a href="screenshots" class="btn btn-default disabled">Screenshots</a>
         </div>
         <div class="col-md-4">
+            <h2>In-game generation</h2>
+            <p>Save terrain algorithms as compact json files and delay generation of heightmaps until run-time. Bandwidth and storage required are only a few kB. Integrate support for procedural terrains in your game using the Noise Modeler Library.</p>
+            <a href="http://docs.noisemodeler.org/" class="btn btn-default">Library documentation</a>
+            <p></p>
+        </div>
+        <div class="col-md-4">
             <h2>No programming required</h2>
             <p>Edit terrain interactively by constructing a graph using a flow-graph interface.</p>
             <a href="usersguide/noisemodeler-usersguide-0.1.5.pdf" class="btn btn-default">User's guide</a>
         </div>
-        <div class="col-md-4">
-            <h2>In-game generation</h2>
-            <p>Save terrain models using a compact graph representation. Evaluation of terrain can be delayed until run-time, reducing bandwidth and storage requirements. Integrate support for procedural terrains in your game using the Noise Modeler Library.</p>
-            <a href="http://docs.noisemodeler.org/" class="btn btn-default">Library documentation</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <video autoplay="true" loop="true" width="100%" src="images/dragndrop.webm" alt="">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-12">
+            <video autoplay="true" loop="true" width="100%" src="images/gain.webm" alt="">
+        </div>
+        <div class="col-md-12">
+            <video autoplay="true" loop="true" width="100%" src="images/gainvalue.webm" alt="">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
             <h2>Open source</h2>
             <p>Noise Modeler is an open-source project released under the zlib license. You are free to use the project for your closed-source game. We need your help growing and improving. Issues and suggestions are welcome in our Github repository.</p>
             <a href="https://github.com/noisemodeler/noisemodeler" class="btn btn-default">Contribute on GitHub</a>
